@@ -7,20 +7,20 @@ public class CountDivOfNum {
 //        int num = 20;
 //        int count = 0;
 //        for(int i=1; i<=num; i++){
-//            if(i%2==0){
+//            if(num%i==0){
 //                count++;
 //            }
 //        }
-//        System.out.println(count);
+//        System.out.println("No of div:"+count);
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter ur num");
         int num = sc.nextInt();
         int count = 0;
         for(int i=1; i<=num; i++){
-            if(i%2==0){
+            if(num%i==0){
                 count++;
             }
         }
-        System.out.println(count);
+        System.out.println("No of div:"+count);
     }
 }
