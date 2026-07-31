@@ -6,5 +6,14 @@ public class Print01toN {
         for(int i = 1; i<=5; i++){
             System.out.println(i);
         }
+
+        //Swap numbers
+//        int a = 10;
+//        int b = 40;
+//        a = a+b;
+//        b = a-b;
+//        a = a-b;
+//        System.out.println("a-->"+a);
+//        System.out.println("b-->"+b);
     }
 }

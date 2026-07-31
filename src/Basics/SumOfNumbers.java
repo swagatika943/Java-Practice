@@ -8,5 +8,14 @@ public class SumOfNumbers {
             sum=sum+i;
         }
         System.out.println(sum);
+
+        //Power of nums
+        int base = 3;
+        int power = 1;
+        int exp = 3;
+        for(int i=1; i<=exp; i++){
+            power = power*base;
+        }
+        System.out.println("Power:"+power);
     }
 }
