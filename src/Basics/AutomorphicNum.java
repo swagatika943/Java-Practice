@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class AutomorphicNum {
     public static void main(String[] args) {
-        //An AutomorphicNum is a number whose square ends with the same digits as the number itself
+        //An AutomorphicNum is a number whose square ends with the same digits as the number itself (5² = 25->Ends with 5)
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
