@@ -1,12 +1,12 @@
 package Arrays;
-
 public class ArraySum {
+
     public static void main(String[] args) {
-        int[] nums = {2, 4, 6, 8};
+        int[] arr = {10, 25, 7, 40, 15};
         int sum = 0;
-        for (int i = 0; i < nums.length; i++) {
-            sum += nums[i];
+        for (int i = 0; i < arr.length; i++) {
+            sum = sum + arr[i];
         }
-        System.out.println("Sum: " + sum);
+        System.out.println("Sum = " + sum);
     }
 }
