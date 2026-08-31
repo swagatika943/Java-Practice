@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Level1;
 
 public class ArrayAverage {
 

@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Level1;
 
 public class FindMax {
     public static void main(String[] args) {
